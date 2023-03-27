@@ -1,0 +1,60 @@
+.car {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  &__svg {
+    position: relative;
+  }
+
+  &__controls {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+  }
+
+  &__select,
+  &__remove,
+  &__A,
+  &__B {
+    background-color: aquamarine;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+    transition: .1s;
+    border: solid 0.2rem blue;
+    font-size: 1.1rem;
+    &:hover {
+      transform: translateY(0.15rem);
+    }
+  }
+  &__name {
+    font-size: 1.3rem;
+  }
+
+  &__A {
+    margin-right: 0.3rem;
+  }
+
+  &__race-control {
+    margin-right: 0.3rem;
+  }
+
+  &__track {
+    display: flex;
+    border-bottom: 0.2rem darkblue dashed;
+    border-top: 0.2rem darkblue dashed;
+    background-image: url('../../../public/assets/flag.png');
+    background-repeat: no-repeat;
+    background-position: 95%;
+    background-color: rgb(64, 64, 64);
+  }
+}
+
+@keyframes driveCar {
+  from {
+    left: 0;
+  }
+  to {
+    left: calc(100% - 80px);
+  }
+}

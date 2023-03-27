@@ -1,0 +1,17 @@
+.pagin {
+  display: flex;
+  gap: 0.8rem;
+
+  &__prevBtn,
+  &__nextBtn {
+      background-color: aquamarine;
+      padding: 0.5rem 1rem;
+      border-radius: 0.5rem;
+      transition: .1s;
+      border: solid 0.2rem blue;
+      font-size: 1.1rem;
+    &:hover {
+      transform: translateY(0.15rem);
+    }
+  }
+}

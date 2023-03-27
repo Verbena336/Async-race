@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+
+  &__btn {
+    background-color: aquamarine;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: .1s;
+    border: solid 0.2rem blue;
+    font-size: 1.1rem;
+  }
+
+  &__btn:hover {
+    transform: translateY(0.15rem);
+  }
+  
+}

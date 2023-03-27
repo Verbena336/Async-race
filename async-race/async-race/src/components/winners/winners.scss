@@ -1,0 +1,47 @@
+.winners {
+  display: none;
+  flex: 1 1 auto;
+  overflow: hidden;
+  &__title {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+
+  &__time-btn {
+    width: 12.5rem;
+    cursor: pointer;
+  }
+
+  &__wins-btn {
+    min-width: 5.2rem;
+    cursor: pointer;
+  }
+
+  &__page {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+th {
+  font-size: 1.2rem;
+}
+
+td {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.sorted {
+  background: url(../../../public/assets/arrowUp.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.second-sorted {
+  background: url(../../../public/assets/arrowDown.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
